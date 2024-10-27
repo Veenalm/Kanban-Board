@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toolbox-cont{
+    background-color: #4b4b4b;
+    height : 5rem;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+   
+}
+.toolbox-priority-cont{
+    height:3.5rem;
+    width: 18rem;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3d3d3d;
+    border: 1px solid black;
+    
+    
+    display: flex;
+}
+.color{
+    height: 1.5rem;
+    width : 3rem;
+    border: 2px solid black;
+}
+.color:hover {
+    border: 2px solid gold;
+
+
+}
+.lightpink{
+ background-color: lightpink;
+
+}
+.lightblue{
+    background-color:rgb(24, 173, 222) ;
+
+}
+.lightgreen{
+    background-color: lightgreen;
+
+}
+.black{
+    background-color: black;
+
+}
+.action-btn-cont{
+    height: 3.5rem;
+    width : 12rem;
+    display: flex;
+    border: 1px solid black;
+}
+.action-btn-cont > button{
+    width:100%;
+    font-size: 3rem;
+    color: white;
+    background-color:#3d3d3d ;
+    border: none;
+
+}
+.action-btn-cont > button:hover{
+    background-color: green;
+
+}
+
+.divider{
+    width: 5px;
+    background-color: black;
+    
+}
+
+.main-cont{
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: start;
+
+}
+.ticket-cont{
+    height: 13rem;
+    width: 10rem;
+    background-color: rgb(238, 164, 130);
+    border-radius: 3px;
+    border: 1px solid pink;
+    display: grid;
+    grid-template-rows:1fr 1fr 4fr ;
+    position: relative;
+   
+   
+    
+}
+.ticket-id{
+    background-color: yellow;
+    padding: 0.25rem;
+}
+.task-area{
+    padding: 0.85rem  0.25rem;
+}
+
+
+
+.lockcls{
+    bottom: 0.5rem;
+    right: 0.5rem;
+    position: absolute;
+   
+}
+.model-cont{
+    height: 50vh;
+    width: 46vw;
+    display: none;
+    background-color: lightsalmon;
+  
+    
+    position: fixed;
+    top: calc(50% - 25vh);
+    right: calc(50% - 23vw);
+
+    
+}
+.task-container{
+    height:100%;
+    width:75%;
+    position: relative;
+    border: 2px solid black;
+}
+.task-container > button{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    background-color: #3d3d3d;
+    padding: 10px 14px;
+    border-radius:  4px;
+}
+
+.textarea-cont{
+    height: 100%;
+    width:100%;
+    resize: none;
+    border: none;
+    font-size: 1.5rem;
+    
+}
+.priority-task-cont{
+    
+    width: 25%;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4b4b4b;
+    
+}
+.prioritycolor{
+    height:3rem;
+    width : 5rem;
+    border: 2px solid black;
+}
+.prioritycolor:hover {
+    border: 2px solid gold;
+
+
+
+}
+.prioritycolor:active{
+    border: 2px solid rgb(255, 0, 119);
+}
+
+
+.all{
+    padding: 4px 8px;
+    color: aliceblue;
+    
+}
+
+
+
+
